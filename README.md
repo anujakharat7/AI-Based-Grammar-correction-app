@@ -1,24 +1,27 @@
-# 🎓 AI-Based Smart Attendance System
+#  English Grammar Correction App
 
 ## Overview
-Built a facial recognition attendance system with blink-based liveness 
-detection (anti-spoofing) and a multi-role RBAC web app — completely 
-eliminating proxy attendance.
+Developed a speech-scored grammar practice app using NLP and Speech 
+Recognition. A Power BI dashboard confirmed 89–93% of students showed 
+measurable grammar improvement after using the app.
 
 ## Tech Stack
 - Python
-- Flask (Web Framework)
-- OpenCV (Facial Recognition)
-- SQLite (Database)
+- NLP (Natural Language Processing)
+- Speech Recognition
+- Power BI (Analytics Dashboard)
 
 ## Key Features
-- Facial recognition for automatic attendance marking
-- Blink detection to prevent proxy/spoofing attacks
-- Multi-role access: Admin, Teacher, Student
-- Real-time web dashboard for attendance records
+- Real-time speech input and grammar scoring
+- Instant feedback and error explanations
+- Student performance tracking
+- Power BI dashboard with improvement analytics
+
+## Key Results
+- 89–93% of students showed measurable grammar improvement
+- Tracked performance across multiple sessions
 
 ## How to Run
 1. Clone the repo
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run: `python app.py`
-4. Open browser at `http://localhost:5000`
